@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main3{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url('./bkgrnd.jpg'); */
+    background-size: cover;
+
+}
+
+.side1{
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+    
+    justify-content: center;
+   
+    
+}
+
+.img2{
+    height: 90%;
+    width: 100%;
+    margin-left: 50px;
+}
+
+
+.side2{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+}
+
+
+
+::placeholder{
+    color:#919191 ;
+    text-align: center;
+}
+
+.wlcm{
+    align-self: center;
+    font-family: cursive;
+    font-size: 35px; 
+    color:#014779 ;
+    margin-top: 60px;
+
+}
+
+.ipf{
+    width: 380px;
+    height: 40px;
+    align-self: center;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+    border-color: rgba(0, 0, 255, 0.527);
+    opacity: 0.6;
+    
+
+}y
+
+
+
+.ipf:focus{
+    width: 410px;
+}
+
+.btn{
+    width: 260px;
+    height: 35px;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: 30px ;
+    outline: none;
+    border: none;
+    /* background-color: rgba(39, 39, 250, 0.801); */
+    cursor: pointer;
+}
+
+.tx{
+    font-size:32px;
+    font-family:cursive;
+    color:rgba(2, 2, 43, 0.9 mh01);
+    align-self: center;
+    justify-self: center;
+    margin-left: 30px;
+}

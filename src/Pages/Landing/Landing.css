@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.act{
+    display: flex;
+    flex: 0.2;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.img{
+    height: 360px;
+    width: 360px;
+    border-radius: 180px;
+
+}
+
+.imgg{
+    height: 360px;
+    width: 360px;
+    border-radius: 180px;
+    background-color: white;
+    align-self: center;
+    margin-top: 20px;
+    box-shadow: 0 0 60px 3px rgba(0, 0, 0, 0.2);
+}
+
+.but{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.712);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.link{
+    margin-top: 8px;
+    color: rgb(107, 107, 1);
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:360px) and (max-width:540px) {
+
+    
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+
+}
+
+.imgg{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: white;
+    align-self: center;
+    margin-top: 10px;
+    box-shadow: 0 0 60px 3px rgba(0, 0, 0, 0.2);
+}
+    
+    
+}
+
+
+
+@media screen and (min-width:280px) and (max-width:360px) {
+
+    
+    .img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    
+    }
+    
+    .imgg{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        background-color: white;
+        align-self: center;
+        margin-top: 10px;
+        box-shadow: 0 0 60px 3px rgba(0, 0, 0, 0.2);
+    }
+        
+        
+    }
+
+    
+@media screen and (min-width:540px) and (max-width:770px) {
+
+    
+    .img{
+        height: 400px;
+        width: 400px;
+        border-radius: 200px;
+    
+    }
+    
+    .imgg{
+        height: 400px;
+        width: 400px;
+        border-radius: 200px;
+        background-color: white;
+        align-self: center;
+        margin-top: 10px;
+        box-shadow: 0 0 60px 3px rgba(0, 0, 0, 0.2);
+    }
+        
+        
+    }
+
+    
+@media screen and (min-width:750px) and (max-width:1030px) {
+
+    
+    .img{
+        height: 600px;
+        width: 600px;
+        border-radius: 300px;
+    
+    }
+    
+    .imgg{
+        height:600px;
+        width: 600px;
+        border-radius: 300px;
+        background-color: white;
+        align-self: center;
+        margin-top: 10px;
+        box-shadow: 0 0 60px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    
+.but{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.712);
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.link{
+    margin-top: 8px;
+    color: rgb(107, 107, 1);
+}
+        
+        
+    }
