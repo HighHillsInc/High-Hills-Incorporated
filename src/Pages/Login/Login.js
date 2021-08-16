@@ -14,18 +14,13 @@ function Login() {
     return (
         <div className="main2">
 
-            <div className="sidea">
-
-                <img src={ys} className="img2" />
-
-            </div>
-            <div className="sideb">
+           
                 
             <p className="wlcm" >Welcome back!</p>
 
 <input type="text" placeholder="Username" className="ipf"></input>
 <input type="password" placeholder="Password" className="ipf"></input>
-<button className="btn" onClick={login} >Login</button>
+<button className="btnn" onClick={login} >Login</button>
 <Link to ="./Signup" className="lnk1">
 Don't have an account? Get one for free.
 </Link>
@@ -33,7 +28,7 @@ Don't have an account? Get one for free.
 <Link className="lnk">
 Forgot password?
 </Link>
-            </div>
+            
 
 
 

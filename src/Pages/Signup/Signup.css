@@ -7,21 +7,13 @@
 .main3{
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* background-image: url('./bkgrnd.jpg'); */
     background-size: cover;
 
 }
 
-.side1{
-    display: flex;
-    flex: 0.4;
-    flex-direction: column;
-    
-    justify-content: center;
-   
-    
-}
+
 
 .img2{
     height: 90%;
@@ -30,11 +22,6 @@
 }
 
 
-.side2{
-    display: flex;
-    flex: 0.6;
-    flex-direction: column;
-}
 
 
 
@@ -47,7 +34,7 @@
     align-self: center;
     font-family: cursive;
     font-size: 35px; 
-    color:#014779 ;
+    color:#012779 ;
     margin-top: 60px;
 
 }
@@ -59,11 +46,11 @@
     border-radius: 30px;
     outline: none;
     margin-top: 30px;
-    border-color: rgba(0, 0, 255, 0.527);
+    border-color: rgba(0, 0, 255, 0.877);
     opacity: 0.6;
     
 
-}y
+}
 
 
 
@@ -71,7 +58,7 @@
     width: 410px;
 }
 
-.btn{
+.btnn{
     width: 260px;
     height: 35px;
     align-self: center;
@@ -79,7 +66,7 @@
     margin-top: 30px ;
     outline: none;
     border: none;
-    /* background-color: rgba(39, 39, 250, 0.801); */
+    background-color: rgba(16, 16, 235, 0.959);
     cursor: pointer;
 }
 
@@ -91,3 +78,65 @@
     justify-self: center;
     margin-left: 30px;
 }
+
+
+ 
+@media screen and (min-width:540px) and (max-width:770px) {
+
+    
+.main3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-size: cover;
+
+}
+
+
+.img2{
+    height: 40%;
+    width: 50%;
+    margin-left: 50px;
+}
+
+    
+.ipf{
+    width: 180px;
+    height: 10px;
+    align-self: center;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+    border-color: rgba(0, 0, 255, 0.527);
+    opacity: 0.6;
+    
+
+}
+
+    
+    
+        
+    }
+
+    
+@media screen and (min-width:280px) and (max-width:720px) {
+
+    
+.ipf{
+    width: 300px;
+    height: 40px;
+    align-self: center;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+    border-color: rgba(0, 0, 255, 0.877);
+    opacity: 0.6;
+    
+
+}
+
+
+
+
+    }

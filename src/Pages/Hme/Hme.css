@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ts{
+    display: flex;
+    flex-direction: column;
+}
+
+.ts1{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+   
+}
+
+.ts1a{
+    display: flex;
+    flex: 0.1;
+    flex-direction: row;
+    box-shadow: 0px 1px;
+}
+
+
+.a{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    /* background-image: url(./logots.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+
+.logot{
+    font-size: 50px;
+    color: rgba(0, 0, 255, 0.836);
+    font-family: cursive;
+    margin-left: 10px;
+}
+
+
+.b{
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+   
+}
+
+
+.b1{
+    display: flex;
+    flex: 0.3;
+    flex-direction: row;
+}
+
+
+.b2{
+    display: flex;
+    flex: 0.7;
+    flex-direction: row;
+   
+}
+
+.bbtn{
+    width: 15%;
+    height: 45%;
+    /* justify-self: center; */
+    align-self: center;
+    /* margin-left: 30px; */
+    outline: none;
+    border: none;
+    font-size: 12px;
+    background-color: transparent;
+    
+}
+
+.bbtn:hover{
+    background-color: dodgerblue;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.bbtm:hover{
+   
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.bbtm{
+    width: 28%;
+    height: 55%;
+    justify-self: center;
+    align-self: center;
+    margin-left: 25px;
+   background-color: blue;
+   border: none;
+   outline: none;
+   font-size: 18px;
+   color: white ;
+    
+}
+
+
+
+.ts1b{
+    display: flex;
+    flex: 0.9;
+    flex-direction: row;
+   
+   
+    
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+    
+}
+
+.pr{
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+
+}
+
+
+.pre{
+    font-size: 18px;
+    margin-left: 20px;
+   
+
+}
+
+
+.d{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+
+   
+}
+
+.amo{
+    width: 40%;
+    height: 20%;
+    align-self: center;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: blue;
+   
+}
+
+
+.amoh{
+    width: 40%;
+    height: 20%;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border-color: blue;
+    outline: none;
+    background-color: white;
+   
+   
+}
+
+
+.ts2{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+
+}
+
+.govv{
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+    
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.govt{
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+
+.govd{
+    display: flex;
+    flex: 0.4;
+    flex-direction: column;
+   
+} 
+
+
+
+.gopic{
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+   
+}
+
+
+
+.ts3{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.ts3a{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+}
+
+.ts3a1{
+    display: flex;
+    flex: 0.2;
+    flex-direction: row;
+}
+
+.ts3b{
+    width: 50%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.plh{
+    width: 80%;
+    height: 20%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.ts3bb{
+    width: 60%;
+    height: 20%;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: black;
+    font-size: 13px;
+    margin-left: 22px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+   
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.free{
+    font-size: 90px;
+    font-family: fantasy;
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:280px) and (max-width:720px) {
+
+    
+.ts1a{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    /* box-shadow: 0px 1px; */
+}
+
+
+.ts1b{
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+}
+
+    
+.d{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+    display: none;
+   
+
+
+   
+}
+
+
+.ts2{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    display: none;
+
+}
+
+
+.gopic{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    
+}
+
+
+.ts3{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.705);
+    justify-content: center;
+    align-content: center;
+}
+
+
+.ts3b{
+    width: 50%;
+    height: 10%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+
+.plh{
+    width: 80%;
+    height: 60%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.ts3bb{
+    width: 60%;
+    height: 60%;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: black;
+    font-size: 13px;
+    margin-left: 52px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+   
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+
+
+.logot{
+    font-size: 25px;
+    color: rgba(0, 0, 255, 0.836);
+    font-family: cursive;
+    margin-left: 10px;
+   
+}
+
+
+
+
+}

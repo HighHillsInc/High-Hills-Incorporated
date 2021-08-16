@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ma{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.ma1{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-image:  url('./THESF.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9; */
+
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 50px;
+}
+
+.ma1a{
+    display: flex;
+    flex-direction: row;
+    flex: 0.2;
+    
+}
+ma1b{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+
+}
+
+.meet{
+    display: flex;
+    flex-direction: row;
+    flex: 0.7;
+}
+
+.join{display: flex;
+    flex-direction: row;
+    flex: 0.3;
+
+
+
+}
+
+.btnh{
+    width: 18%;
+    height: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 40px;
+    opacity: 0.8;
+}
+
+
+.btnj{
+    width: 40%;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgba(12, 12, 247, 0.932);
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 30px;
+    margin-left: 40px;
+    opacity: 0.8;
+}
+
+.btnh:hover{
+    cursor: pointer;
+    opacity: 0.95;
+    font-size: 20px;
+}
+
+
+.btnj:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.lg{
+    width: 20%;
+    height: 50%;
+}
+
+
+.ma1b{
+    display: flex;
+    flex-direction: row;
+    flex: 0.8;
+    
+}
+
+
+.ma2{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+     background-image: linear-gradient(white, rgb(39, 38, 38), black);
+    
+   
+}
+
+.gv{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    background-image: url('./Ewura\ Ama.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+
+.gv1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    background-image: url('./Amoah.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+
+.gv2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    background-image: url('./phile.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.ma3{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+   
+    
+}
+
+.ma3a{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+}
+
+
+.ma3b{
+    display: flex;
+    flex-direction: column;
+    flex: 0.4;
+}
+
+.gov{
+    margin-top: 420px;
+    font-size: 28px;
+    font-weight: 120px;
+   font-family: cursive;
+    color: black;
+    margin-left: 15px;
+}
+
+.bie{
+    font-size: 25px;
+    margin-top: 200px;
+     font-family: monospace;
+     margin-left: 20px;
+     opacity: 0.6;
+}
+
+
+
+.nie{
+    width: 20%;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgba(12, 12, 247, 0.932);
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 300px;
+    /* margin-left: 40px; */
+    margin-right: 800px;
+    opacity: 0.8;
+}
+
+
+
+.nie:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+}
